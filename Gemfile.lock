@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    logstash-event (1.2.02)
+    logstash-logger (0.20.0)
+      logstash-event (~> 1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  logstash-logger
+
+BUNDLED WITH
+   1.13.1
