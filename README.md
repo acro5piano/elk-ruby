@@ -1,3 +1,5 @@
+Easy template
+
 ```bash
 git clone https://github.com/acro5piano/elk-ruby
 cd elk-ruby
@@ -12,3 +14,10 @@ bundle exec ruby test.rb
 ```
 
 go to http://localhost:5601
+
+
+Maybe you should run the following command before up:
+
+```
+sudo sysctl -w vm.max_map_count=262144
+```
